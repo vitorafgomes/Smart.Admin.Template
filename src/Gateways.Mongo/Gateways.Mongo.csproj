@@ -1,0 +1,21 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Smart.Admin.Template.RestApi.Gateways.Mongo</RootNamespace>
+        <AssemblyName>Smart.Admin.Template.RestApi.Gateways.Mongo</AssemblyName>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Converters\Abstractions\" />
+      <Folder Include="Documents\Common\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <PackageReference Include="MongoDB.Bson" Version="2.25.0" />
+      <PackageReference Include="MongoDB.Driver" Version="2.25.0" />
+    </ItemGroup>
+
+</Project>

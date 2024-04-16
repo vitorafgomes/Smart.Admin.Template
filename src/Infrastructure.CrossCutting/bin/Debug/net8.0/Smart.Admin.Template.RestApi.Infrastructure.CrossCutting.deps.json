@@ -1,0 +1,194 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Smart.Admin.Template.RestApi.Infrastructure.CrossCutting/1.0.0": {
+        "dependencies": {
+          "FluentValidation": "11.9.0",
+          "Microsoft.Extensions.DependencyInjection.Abstractions": "8.0.1",
+          "Polly.Contrib.WaitAndRetry": "1.1.1",
+          "Polly.Extensions.Http": "3.0.0",
+          "ToolBox.Framework.Error": "1.0.3",
+          "ToolBox.Framework.Logging": "1.0.4"
+        },
+        "runtime": {
+          "Smart.Admin.Template.RestApi.Infrastructure.CrossCutting.dll": {}
+        }
+      },
+      "FluentValidation/11.9.0": {
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "assemblyVersion": "11.0.0.0",
+            "fileVersion": "11.9.0.0"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "assemblyVersion": "8.0.0.0",
+            "fileVersion": "8.0.324.11423"
+          }
+        }
+      },
+      "OpenTracing/0.12.1": {
+        "runtime": {
+          "lib/netstandard2.0/OpenTracing.dll": {
+            "assemblyVersion": "0.12.1.0",
+            "fileVersion": "0.12.1.0"
+          }
+        }
+      },
+      "Polly/7.1.0": {
+        "runtime": {
+          "lib/netstandard2.0/Polly.dll": {
+            "assemblyVersion": "7.0.0.0",
+            "fileVersion": "7.1.0.0"
+          }
+        }
+      },
+      "Polly.Contrib.WaitAndRetry/1.1.1": {
+        "runtime": {
+          "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.1.1.0"
+          }
+        }
+      },
+      "Polly.Extensions.Http/3.0.0": {
+        "dependencies": {
+          "Polly": "7.1.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.Extensions.Http.dll": {
+            "assemblyVersion": "3.0.0.0",
+            "fileVersion": "3.0.0.0"
+          }
+        }
+      },
+      "ToolBox.Framework.Error/1.0.3": {
+        "dependencies": {
+          "ToolBox.Framework.Serializer.JsonCore": "1.0.9"
+        },
+        "runtime": {
+          "lib/net8.0/ToolBox.Framework.Error.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ToolBox.Framework.Logging/1.0.4": {
+        "dependencies": {
+          "OpenTracing": "0.12.1",
+          "ToolBox.Framework.Serializer.JsonCore": "1.0.9"
+        },
+        "runtime": {
+          "lib/net8.0/ToolBox.Framework.Logging.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ToolBox.Framework.Serializer/1.0.9": {
+        "runtime": {
+          "lib/net8.0/ToolBox.Framework.Serializer.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      },
+      "ToolBox.Framework.Serializer.JsonCore/1.0.9": {
+        "dependencies": {
+          "ToolBox.Framework.Serializer": "1.0.9"
+        },
+        "runtime": {
+          "lib/net8.0/ToolBox.Framework.Serializer.JsonCore.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Smart.Admin.Template.RestApi.Infrastructure.CrossCutting/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "FluentValidation/11.9.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-VneVlTvwYDkfHV5av3QrQ0amALgrLX6LV94wlYyEsh0B/klJBW7C8y2eAtj5tOZ3jH6CAVpr4s1ZGgew/QWyig==",
+      "path": "fluentvalidation/11.9.0",
+      "hashPath": "fluentvalidation.11.9.0.nupkg.sha512"
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-fGLiCRLMYd00JYpClraLjJTNKLmMJPnqxMaiRzEBIIvevlzxz33mXy39Lkd48hu1G+N21S7QpaO5ZzKsI6FRuA==",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.1",
+      "hashPath": "microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512"
+    },
+    "OpenTracing/0.12.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-8i/Vnx/lbWzqqJ6J5lofguT4wBS99rfqKujWrFrTGAclQBZ5h1CgBlzGOTqsNjmMsxSTLpC+Ns6/f1RB0c4O/g==",
+      "path": "opentracing/0.12.1",
+      "hashPath": "opentracing.0.12.1.nupkg.sha512"
+    },
+    "Polly/7.1.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-mpQsvlEn4ipgICh5CGyVLPV93RFVzOrBG7wPZfzY8gExh7XgWQn0GCDY9nudbUEJ12UiGPP9i4+CohghBvzhmg==",
+      "path": "polly/7.1.0",
+      "hashPath": "polly.7.1.0.nupkg.sha512"
+    },
+    "Polly.Contrib.WaitAndRetry/1.1.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-1MUQLiSo4KDkQe6nzQRhIU05lm9jlexX5BVsbuw0SL82ynZ+GzAHQxJVDPVBboxV37Po3SG077aX8DuSy8TkaA==",
+      "path": "polly.contrib.waitandretry/1.1.1",
+      "hashPath": "polly.contrib.waitandretry.1.1.1.nupkg.sha512"
+    },
+    "Polly.Extensions.Http/3.0.0": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-drrG+hB3pYFY7w1c3BD+lSGYvH2oIclH8GRSehgfyP5kjnFnHKQuuBhuHLv+PWyFuaTDyk/vfRpnxOzd11+J8g==",
+      "path": "polly.extensions.http/3.0.0",
+      "hashPath": "polly.extensions.http.3.0.0.nupkg.sha512"
+    },
+    "ToolBox.Framework.Error/1.0.3": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-r31Zi5JfSWMva4U1jW01uEJiP9OzbKHPDGr8MyFYvuesqtrAEvzCJXRDDjyMVV5sRfsqzeHhPeWG3JCtoFSQIw==",
+      "path": "toolbox.framework.error/1.0.3",
+      "hashPath": "toolbox.framework.error.1.0.3.nupkg.sha512"
+    },
+    "ToolBox.Framework.Logging/1.0.4": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-MnsESzOJ2e3moyO9WGgjbxn6dH5o8R0SJMBJqgRvRIqr0FCIDWZE/hGLnrECpYPV0ygQOj9ayL0JEn9NgVfjtw==",
+      "path": "toolbox.framework.logging/1.0.4",
+      "hashPath": "toolbox.framework.logging.1.0.4.nupkg.sha512"
+    },
+    "ToolBox.Framework.Serializer/1.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lO6KyNvQh7xZrDKOSkOq2Ni6j50CDcfnEYYZewHRIixm3/UDSIHVE7Y7VG0okGoCItU//rgRb3DMKxKEqmCrkQ==",
+      "path": "toolbox.framework.serializer/1.0.9",
+      "hashPath": "toolbox.framework.serializer.1.0.9.nupkg.sha512"
+    },
+    "ToolBox.Framework.Serializer.JsonCore/1.0.9": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-lP+DgWbyD6zGiVq2p3MGiaGXjU9Yp+PcxyeVduV+D1XG7D3lsoTUXa8/t8ZcNkmkMR+5dVl3WKtxKcasNOIc6w==",
+      "path": "toolbox.framework.serializer.jsoncore/1.0.9",
+      "hashPath": "toolbox.framework.serializer.jsoncore.1.0.9.nupkg.sha512"
+    }
+  }
+}

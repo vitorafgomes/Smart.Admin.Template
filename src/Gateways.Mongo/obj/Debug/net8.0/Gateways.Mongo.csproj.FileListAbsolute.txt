@@ -1,0 +1,12 @@
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Gateways.Mongo/bin/Debug/net8.0/Smart.Admin.Template.RestApi.Gateways.Mongo.deps.json
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Gateways.Mongo/bin/Debug/net8.0/Smart.Admin.Template.RestApi.Gateways.Mongo.dll
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Gateways.Mongo/bin/Debug/net8.0/Smart.Admin.Template.RestApi.Gateways.Mongo.pdb
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Gateways.Mongo/obj/Debug/net8.0/Gateways.Mongo.csproj.AssemblyReference.cache
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Gateways.Mongo/obj/Debug/net8.0/Gateways.Mongo.GeneratedMSBuildEditorConfig.editorconfig
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Gateways.Mongo/obj/Debug/net8.0/Gateways.Mongo.AssemblyInfoInputs.cache
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Gateways.Mongo/obj/Debug/net8.0/Gateways.Mongo.AssemblyInfo.cs
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Gateways.Mongo/obj/Debug/net8.0/Gateways.Mongo.csproj.CoreCompileInputs.cache
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Gateways.Mongo/obj/Debug/net8.0/Smart.Admin.Template.RestApi.Gateways.Mongo.dll
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Gateways.Mongo/obj/Debug/net8.0/refint/Smart.Admin.Template.RestApi.Gateways.Mongo.dll
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Gateways.Mongo/obj/Debug/net8.0/Smart.Admin.Template.RestApi.Gateways.Mongo.pdb
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Gateways.Mongo/obj/Debug/net8.0/ref/Smart.Admin.Template.RestApi.Gateways.Mongo.dll

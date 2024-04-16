@@ -1,0 +1,422 @@
+{
+  "version": 3,
+  "targets": {
+    "net8.0": {
+      "FluentValidation/11.9.0": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/FluentValidation.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll": {
+            "related": ".xml"
+          }
+        },
+        "build": {
+          "buildTransitive/net6.0/_._": {}
+        }
+      },
+      "OpenTracing/0.12.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/OpenTracing.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/OpenTracing.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Polly/7.1.0": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Polly.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "Polly.Contrib.WaitAndRetry/1.1.1": {
+        "type": "package",
+        "compile": {
+          "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.dll": {
+            "related": ".pdb;.xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.dll": {
+            "related": ".pdb;.xml"
+          }
+        }
+      },
+      "Polly.Extensions.Http/3.0.0": {
+        "type": "package",
+        "dependencies": {
+          "Polly": "7.1.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Polly.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        },
+        "runtime": {
+          "lib/netstandard2.0/Polly.Extensions.Http.dll": {
+            "related": ".xml"
+          }
+        }
+      },
+      "ToolBox.Framework.Error/1.0.3": {
+        "type": "package",
+        "dependencies": {
+          "toolbox.framework.serializer.jsoncore": "1.0.9"
+        },
+        "compile": {
+          "lib/net8.0/ToolBox.Framework.Error.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/ToolBox.Framework.Error.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "ToolBox.Framework.Logging/1.0.4": {
+        "type": "package",
+        "dependencies": {
+          "OpenTracing": "0.12.1",
+          "toolbox.framework.serializer.jsoncore": "1.0.7"
+        },
+        "compile": {
+          "lib/net8.0/ToolBox.Framework.Logging.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/ToolBox.Framework.Logging.dll": {
+            "related": ".pdb"
+          }
+        }
+      },
+      "ToolBox.Framework.Serializer/1.0.9": {
+        "type": "package",
+        "compile": {
+          "lib/net8.0/ToolBox.Framework.Serializer.dll": {}
+        },
+        "runtime": {
+          "lib/net8.0/ToolBox.Framework.Serializer.dll": {}
+        }
+      },
+      "ToolBox.Framework.Serializer.JsonCore/1.0.9": {
+        "type": "package",
+        "dependencies": {
+          "ToolBox.Framework.Serializer": "1.0.9"
+        },
+        "compile": {
+          "lib/net8.0/ToolBox.Framework.Serializer.JsonCore.dll": {
+            "related": ".pdb"
+          }
+        },
+        "runtime": {
+          "lib/net8.0/ToolBox.Framework.Serializer.JsonCore.dll": {
+            "related": ".pdb"
+          }
+        }
+      }
+    }
+  },
+  "libraries": {
+    "FluentValidation/11.9.0": {
+      "sha512": "VneVlTvwYDkfHV5av3QrQ0amALgrLX6LV94wlYyEsh0B/klJBW7C8y2eAtj5tOZ3jH6CAVpr4s1ZGgew/QWyig==",
+      "type": "package",
+      "path": "fluentvalidation/11.9.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "README.md",
+        "fluent-validation-icon.png",
+        "fluentvalidation.11.9.0.nupkg.sha512",
+        "fluentvalidation.nuspec",
+        "lib/net5.0/FluentValidation.dll",
+        "lib/net5.0/FluentValidation.xml",
+        "lib/net6.0/FluentValidation.dll",
+        "lib/net6.0/FluentValidation.xml",
+        "lib/net7.0/FluentValidation.dll",
+        "lib/net7.0/FluentValidation.xml",
+        "lib/net8.0/FluentValidation.dll",
+        "lib/net8.0/FluentValidation.xml",
+        "lib/netstandard2.0/FluentValidation.dll",
+        "lib/netstandard2.0/FluentValidation.xml",
+        "lib/netstandard2.1/FluentValidation.dll",
+        "lib/netstandard2.1/FluentValidation.xml"
+      ]
+    },
+    "Microsoft.Extensions.DependencyInjection.Abstractions/8.0.1": {
+      "sha512": "fGLiCRLMYd00JYpClraLjJTNKLmMJPnqxMaiRzEBIIvevlzxz33mXy39Lkd48hu1G+N21S7QpaO5ZzKsI6FRuA==",
+      "type": "package",
+      "path": "microsoft.extensions.dependencyinjection.abstractions/8.0.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "Icon.png",
+        "LICENSE.TXT",
+        "PACKAGE.md",
+        "THIRD-PARTY-NOTICES.TXT",
+        "buildTransitive/net461/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "buildTransitive/net462/_._",
+        "buildTransitive/net6.0/_._",
+        "buildTransitive/netcoreapp2.0/Microsoft.Extensions.DependencyInjection.Abstractions.targets",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net462/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net6.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net7.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/net8.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.0/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.dll",
+        "lib/netstandard2.1/Microsoft.Extensions.DependencyInjection.Abstractions.xml",
+        "microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+        "microsoft.extensions.dependencyinjection.abstractions.nuspec",
+        "useSharedDesignerContext.txt"
+      ]
+    },
+    "OpenTracing/0.12.1": {
+      "sha512": "8i/Vnx/lbWzqqJ6J5lofguT4wBS99rfqKujWrFrTGAclQBZ5h1CgBlzGOTqsNjmMsxSTLpC+Ns6/f1RB0c4O/g==",
+      "type": "package",
+      "path": "opentracing/0.12.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net45/OpenTracing.dll",
+        "lib/net45/OpenTracing.pdb",
+        "lib/net45/OpenTracing.xml",
+        "lib/netstandard1.3/OpenTracing.dll",
+        "lib/netstandard1.3/OpenTracing.pdb",
+        "lib/netstandard1.3/OpenTracing.xml",
+        "lib/netstandard2.0/OpenTracing.dll",
+        "lib/netstandard2.0/OpenTracing.pdb",
+        "lib/netstandard2.0/OpenTracing.xml",
+        "opentracing.0.12.1.nupkg.sha512",
+        "opentracing.nuspec"
+      ]
+    },
+    "Polly/7.1.0": {
+      "sha512": "mpQsvlEn4ipgICh5CGyVLPV93RFVzOrBG7wPZfzY8gExh7XgWQn0GCDY9nudbUEJ12UiGPP9i4+CohghBvzhmg==",
+      "type": "package",
+      "path": "polly/7.1.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.1/Polly.dll",
+        "lib/netstandard1.1/Polly.xml",
+        "lib/netstandard2.0/Polly.dll",
+        "lib/netstandard2.0/Polly.xml",
+        "polly.7.1.0.nupkg.sha512",
+        "polly.nuspec"
+      ]
+    },
+    "Polly.Contrib.WaitAndRetry/1.1.1": {
+      "sha512": "1MUQLiSo4KDkQe6nzQRhIU05lm9jlexX5BVsbuw0SL82ynZ+GzAHQxJVDPVBboxV37Po3SG077aX8DuSy8TkaA==",
+      "type": "package",
+      "path": "polly.contrib.waitandretry/1.1.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net461/Polly.Contrib.WaitAndRetry.dll",
+        "lib/net461/Polly.Contrib.WaitAndRetry.pdb",
+        "lib/net461/Polly.Contrib.WaitAndRetry.xml",
+        "lib/net472/Polly.Contrib.WaitAndRetry.dll",
+        "lib/net472/Polly.Contrib.WaitAndRetry.pdb",
+        "lib/net472/Polly.Contrib.WaitAndRetry.xml",
+        "lib/netstandard1.1/Polly.Contrib.WaitAndRetry.dll",
+        "lib/netstandard1.1/Polly.Contrib.WaitAndRetry.pdb",
+        "lib/netstandard1.1/Polly.Contrib.WaitAndRetry.xml",
+        "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.dll",
+        "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.pdb",
+        "lib/netstandard2.0/Polly.Contrib.WaitAndRetry.xml",
+        "polly.contrib.waitandretry.1.1.1.nupkg.sha512",
+        "polly.contrib.waitandretry.nuspec"
+      ]
+    },
+    "Polly.Extensions.Http/3.0.0": {
+      "sha512": "drrG+hB3pYFY7w1c3BD+lSGYvH2oIclH8GRSehgfyP5kjnFnHKQuuBhuHLv+PWyFuaTDyk/vfRpnxOzd11+J8g==",
+      "type": "package",
+      "path": "polly.extensions.http/3.0.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/netstandard1.1/Polly.Extensions.Http.dll",
+        "lib/netstandard1.1/Polly.Extensions.Http.xml",
+        "lib/netstandard2.0/Polly.Extensions.Http.dll",
+        "lib/netstandard2.0/Polly.Extensions.Http.xml",
+        "polly.extensions.http.3.0.0.nupkg.sha512",
+        "polly.extensions.http.nuspec"
+      ]
+    },
+    "ToolBox.Framework.Error/1.0.3": {
+      "sha512": "r31Zi5JfSWMva4U1jW01uEJiP9OzbKHPDGr8MyFYvuesqtrAEvzCJXRDDjyMVV5sRfsqzeHhPeWG3JCtoFSQIw==",
+      "type": "package",
+      "path": "toolbox.framework.error/1.0.3",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/ToolBox.Framework.Error.dll",
+        "lib/net8.0/ToolBox.Framework.Error.pdb",
+        "toolbox.framework.error.1.0.3.nupkg.sha512",
+        "toolbox.framework.error.nuspec"
+      ]
+    },
+    "ToolBox.Framework.Logging/1.0.4": {
+      "sha512": "MnsESzOJ2e3moyO9WGgjbxn6dH5o8R0SJMBJqgRvRIqr0FCIDWZE/hGLnrECpYPV0ygQOj9ayL0JEn9NgVfjtw==",
+      "type": "package",
+      "path": "toolbox.framework.logging/1.0.4",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/ToolBox.Framework.Logging.dll",
+        "lib/net8.0/ToolBox.Framework.Logging.pdb",
+        "toolbox.framework.logging.1.0.4.nupkg.sha512",
+        "toolbox.framework.logging.nuspec"
+      ]
+    },
+    "ToolBox.Framework.Serializer/1.0.9": {
+      "sha512": "lO6KyNvQh7xZrDKOSkOq2Ni6j50CDcfnEYYZewHRIixm3/UDSIHVE7Y7VG0okGoCItU//rgRb3DMKxKEqmCrkQ==",
+      "type": "package",
+      "path": "toolbox.framework.serializer/1.0.9",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/ToolBox.Framework.Serializer.dll",
+        "toolbox.framework.serializer.1.0.9.nupkg.sha512",
+        "toolbox.framework.serializer.nuspec"
+      ]
+    },
+    "ToolBox.Framework.Serializer.JsonCore/1.0.9": {
+      "sha512": "lP+DgWbyD6zGiVq2p3MGiaGXjU9Yp+PcxyeVduV+D1XG7D3lsoTUXa8/t8ZcNkmkMR+5dVl3WKtxKcasNOIc6w==",
+      "type": "package",
+      "path": "toolbox.framework.serializer.jsoncore/1.0.9",
+      "files": [
+        ".nupkg.metadata",
+        "lib/net8.0/ToolBox.Framework.Serializer.JsonCore.dll",
+        "lib/net8.0/ToolBox.Framework.Serializer.JsonCore.pdb",
+        "toolbox.framework.serializer.jsoncore.1.0.9.nupkg.sha512",
+        "toolbox.framework.serializer.jsoncore.nuspec"
+      ]
+    }
+  },
+  "projectFileDependencyGroups": {
+    "net8.0": [
+      "FluentValidation >= 11.9.0",
+      "Microsoft.Extensions.DependencyInjection.Abstractions >= 8.0.1",
+      "Polly.Contrib.WaitAndRetry >= 1.1.1",
+      "Polly.Extensions.Http >= 3.0.0",
+      "toolbox.framework.error >= 1.0.3",
+      "toolbox.framework.logging >= 1.0.4"
+    ]
+  },
+  "packageFolders": {
+    "/home/vitorafgomes/.nuget/packages/": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Infrastructure.CrossCutting/Infrastructure.CrossCutting.csproj",
+      "projectName": "Smart.Admin.Template.RestApi.Infrastructure.CrossCutting",
+      "projectPath": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Infrastructure.CrossCutting/Infrastructure.CrossCutting.csproj",
+      "packagesPath": "/home/vitorafgomes/.nuget/packages/",
+      "outputPath": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Infrastructure.CrossCutting/obj/",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "/home/vitorafgomes/.nuget/NuGet/NuGet.Config"
+      ],
+      "originalTargetFrameworks": [
+        "net8.0"
+      ],
+      "sources": {
+        "https://api.nuget.org/v3/index.json": {},
+        "https://nuget.pkg.github.com/vitorafgomes/index.json": {},
+        "https://pkgs.dev.azure.com/BCTT-Banco/BusinessApps/_packaging/BusinessAppsPackages/nuget/v3/index.json": {}
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "projectReferences": {}
+        }
+      },
+      "warningProperties": {
+        "warnAsError": [
+          "NU1605"
+        ]
+      }
+    },
+    "frameworks": {
+      "net8.0": {
+        "targetAlias": "net8.0",
+        "dependencies": {
+          "FluentValidation": {
+            "target": "Package",
+            "version": "[11.9.0, )"
+          },
+          "Microsoft.Extensions.DependencyInjection.Abstractions": {
+            "target": "Package",
+            "version": "[8.0.1, )"
+          },
+          "Polly.Contrib.WaitAndRetry": {
+            "target": "Package",
+            "version": "[1.1.1, )"
+          },
+          "Polly.Extensions.Http": {
+            "target": "Package",
+            "version": "[3.0.0, )"
+          },
+          "toolbox.framework.error": {
+            "target": "Package",
+            "version": "[1.0.3, )"
+          },
+          "toolbox.framework.logging": {
+            "target": "Package",
+            "version": "[1.0.4, )"
+          }
+        },
+        "imports": [
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48",
+          "net481"
+        ],
+        "assetTargetFallback": true,
+        "warn": true,
+        "frameworkReferences": {
+          "Microsoft.NETCore.App": {
+            "privateAssets": "all"
+          }
+        },
+        "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+      }
+    }
+  }
+}

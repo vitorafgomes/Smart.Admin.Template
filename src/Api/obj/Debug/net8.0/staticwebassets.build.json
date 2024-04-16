@@ -1,0 +1,11 @@
+{
+  "Version": 1,
+  "Hash": "x5Cv9tEjaNT47OrD8BBO8X8BkrxDE/ifKciYAwf5kmk=",
+  "Source": "Smart.Admin.Template.RestApi.Api",
+  "BasePath": "_content/Smart.Admin.Template.RestApi.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": []
+}

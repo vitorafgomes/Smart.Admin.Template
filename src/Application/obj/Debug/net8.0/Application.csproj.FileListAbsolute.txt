@@ -1,0 +1,11 @@
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Application/bin/Debug/net8.0/Smart.Admin.Template.RestApi.Application.deps.json
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Application/bin/Debug/net8.0/Smart.Admin.Template.RestApi.Application.dll
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Application/bin/Debug/net8.0/Smart.Admin.Template.RestApi.Application.pdb
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Application/obj/Debug/net8.0/Application.GeneratedMSBuildEditorConfig.editorconfig
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Application/obj/Debug/net8.0/Application.AssemblyInfoInputs.cache
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Application/obj/Debug/net8.0/Application.AssemblyInfo.cs
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Application/obj/Debug/net8.0/Application.csproj.CoreCompileInputs.cache
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Application/obj/Debug/net8.0/Smart.Admin.Template.RestApi.Application.dll
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Application/obj/Debug/net8.0/refint/Smart.Admin.Template.RestApi.Application.dll
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Application/obj/Debug/net8.0/Smart.Admin.Template.RestApi.Application.pdb
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Application/obj/Debug/net8.0/ref/Smart.Admin.Template.RestApi.Application.dll

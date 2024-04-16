@@ -1,0 +1,11 @@
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api.Contracts/bin/Debug/net8.0/Smart.Admin.Template.RestApi.Api.Contracts.deps.json
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api.Contracts/bin/Debug/net8.0/Smart.Admin.Template.RestApi.Api.Contracts.dll
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api.Contracts/bin/Debug/net8.0/Smart.Admin.Template.RestApi.Api.Contracts.pdb
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api.Contracts/obj/Debug/net8.0/Api.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api.Contracts/obj/Debug/net8.0/Api.Contracts.AssemblyInfoInputs.cache
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api.Contracts/obj/Debug/net8.0/Api.Contracts.AssemblyInfo.cs
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api.Contracts/obj/Debug/net8.0/Api.Contracts.csproj.CoreCompileInputs.cache
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api.Contracts/obj/Debug/net8.0/Smart.Admin.Template.RestApi.Api.Contracts.dll
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api.Contracts/obj/Debug/net8.0/refint/Smart.Admin.Template.RestApi.Api.Contracts.dll
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api.Contracts/obj/Debug/net8.0/Smart.Admin.Template.RestApi.Api.Contracts.pdb
+/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api.Contracts/obj/Debug/net8.0/ref/Smart.Admin.Template.RestApi.Api.Contracts.dll

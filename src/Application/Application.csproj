@@ -1,0 +1,18 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Smart.Admin.Template.RestApi.Application</RootNamespace>
+        <AssemblyName>Smart.Admin.Template.RestApi.Application</AssemblyName>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <Folder Include="Common\Boundaries\Converters\Abstractions\" />
+      <Folder Include="Gateways\" />
+      <Folder Include="Services\Abstractions\" />
+      <Folder Include="UseCases\" />
+    </ItemGroup>
+
+</Project>

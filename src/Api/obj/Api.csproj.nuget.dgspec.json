@@ -1,0 +1,477 @@
+{
+  "format": 1,
+  "restore": {
+    "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api/Api.csproj": {}
+  },
+  "projects": {
+    "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/Infrastructure.CrossCutting/Infrastructure.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/Infrastructure.CrossCutting/Infrastructure.CrossCutting.csproj",
+        "projectName": "Smart.Admin.Template.RestApi.Infrastructure.CrossCutting",
+        "projectPath": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/Infrastructure.CrossCutting/Infrastructure.CrossCutting.csproj",
+        "packagesPath": "/home/vitorafgomes/.nuget/packages/",
+        "outputPath": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/Infrastructure.CrossCutting/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vitorafgomes/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/vitorafgomes/index.json": {},
+          "https://pkgs.dev.azure.com/BCTT-Banco/BusinessApps/_packaging/BusinessAppsPackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Polly.Contrib.WaitAndRetry": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Polly.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "toolbox.framework.error": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "toolbox.framework.logging": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api.Contracts/Api.Contracts.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api.Contracts/Api.Contracts.csproj",
+        "projectName": "Smart.Admin.Template.RestApi.Api.Contracts",
+        "projectPath": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api.Contracts/Api.Contracts.csproj",
+        "packagesPath": "/home/vitorafgomes/.nuget/packages/",
+        "outputPath": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api.Contracts/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vitorafgomes/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/vitorafgomes/index.json": {},
+          "https://pkgs.dev.azure.com/BCTT-Banco/BusinessApps/_packaging/BusinessAppsPackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api/Api.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api/Api.csproj",
+        "projectName": "Smart.Admin.Template.RestApi.Api",
+        "projectPath": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api/Api.csproj",
+        "packagesPath": "/home/vitorafgomes/.nuget/packages/",
+        "outputPath": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vitorafgomes/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/vitorafgomes/index.json": {},
+          "https://pkgs.dev.azure.com/BCTT-Banco/BusinessApps/_packaging/BusinessAppsPackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/Infrastructure.CrossCutting/Infrastructure.CrossCutting.csproj": {
+                "projectPath": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/Infrastructure.CrossCutting/Infrastructure.CrossCutting.csproj"
+              },
+              "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api.Contracts/Api.Contracts.csproj": {
+                "projectPath": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Api.Contracts/Api.Contracts.csproj"
+              },
+              "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Application/Application.csproj": {
+                "projectPath": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Application/Application.csproj"
+              },
+              "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Gateways.Mongo/Gateways.Mongo.csproj": {
+                "projectPath": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Gateways.Mongo/Gateways.Mongo.csproj"
+              },
+              "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Infrastructure.CrossCutting/Infrastructure.CrossCutting.csproj": {
+                "projectPath": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Infrastructure.CrossCutting/Infrastructure.CrossCutting.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "Asp.Versioning.Mvc": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "Asp.Versioning.Mvc.ApiExplorer": {
+              "target": "Package",
+              "version": "[8.1.0, )"
+            },
+            "FluentValidation.AspNetCore": {
+              "target": "Package",
+              "version": "[11.3.0, )"
+            },
+            "Microsoft.AspNetCore.JsonPatch": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.AspNetCore.OpenApi": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.Extensions.Http.Polly": {
+              "target": "Package",
+              "version": "[8.0.4, )"
+            },
+            "Microsoft.NET.Build.Containers": {
+              "target": "Package",
+              "version": "[8.0.204, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[6.4.0, )"
+            },
+            "ToolBox.Framework.Logging": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "ToolBox.Framework.Logging.Renders.Default": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "ToolBox.Framework.Logging.Writers.Console": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            },
+            "toolbox.framework.error": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "toolbox.framework.logging.writers.rollingfilebysize": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Application/Application.csproj",
+        "projectName": "Smart.Admin.Template.RestApi.Application",
+        "projectPath": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Application/Application.csproj",
+        "packagesPath": "/home/vitorafgomes/.nuget/packages/",
+        "outputPath": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vitorafgomes/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/vitorafgomes/index.json": {},
+          "https://pkgs.dev.azure.com/BCTT-Banco/BusinessApps/_packaging/BusinessAppsPackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Gateways.Mongo/Gateways.Mongo.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Gateways.Mongo/Gateways.Mongo.csproj",
+        "projectName": "Smart.Admin.Template.RestApi.Gateways.Mongo",
+        "projectPath": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Gateways.Mongo/Gateways.Mongo.csproj",
+        "packagesPath": "/home/vitorafgomes/.nuget/packages/",
+        "outputPath": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Gateways.Mongo/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vitorafgomes/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/vitorafgomes/index.json": {},
+          "https://pkgs.dev.azure.com/BCTT-Banco/BusinessApps/_packaging/BusinessAppsPackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.25.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Infrastructure.CrossCutting/Infrastructure.CrossCutting.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Infrastructure.CrossCutting/Infrastructure.CrossCutting.csproj",
+        "projectName": "Smart.Admin.Template.RestApi.Infrastructure.CrossCutting",
+        "projectPath": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Infrastructure.CrossCutting/Infrastructure.CrossCutting.csproj",
+        "packagesPath": "/home/vitorafgomes/.nuget/packages/",
+        "outputPath": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Infrastructure.CrossCutting/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/home/vitorafgomes/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {},
+          "https://nuget.pkg.github.com/vitorafgomes/index.json": {},
+          "https://pkgs.dev.azure.com/BCTT-Banco/BusinessApps/_packaging/BusinessAppsPackages/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.9.0, )"
+            },
+            "Microsoft.Extensions.DependencyInjection.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.1, )"
+            },
+            "Polly.Contrib.WaitAndRetry": {
+              "target": "Package",
+              "version": "[1.1.1, )"
+            },
+            "Polly.Extensions.Http": {
+              "target": "Package",
+              "version": "[3.0.0, )"
+            },
+            "toolbox.framework.error": {
+              "target": "Package",
+              "version": "[1.0.3, )"
+            },
+            "toolbox.framework.logging": {
+              "target": "Package",
+              "version": "[1.0.4, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

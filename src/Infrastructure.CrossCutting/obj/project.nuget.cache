@@ -1,0 +1,19 @@
+{
+  "version": 2,
+  "dgSpecHash": "SqN1VJfUOWaVH6h+cy1VNsVfLBIV4SMnBJGxruLd5GdmyE3YJCC12uvcqVQtbmK67tLLjYj/a+DQCEFZAomLoA==",
+  "success": true,
+  "projectFilePath": "/home/vitorafgomes/WorkSpace/Templates/SmarAdminTemplate/src/Infrastructure.CrossCutting/Infrastructure.CrossCutting.csproj",
+  "expectedPackageFiles": [
+    "/home/vitorafgomes/.nuget/packages/fluentvalidation/11.9.0/fluentvalidation.11.9.0.nupkg.sha512",
+    "/home/vitorafgomes/.nuget/packages/microsoft.extensions.dependencyinjection.abstractions/8.0.1/microsoft.extensions.dependencyinjection.abstractions.8.0.1.nupkg.sha512",
+    "/home/vitorafgomes/.nuget/packages/opentracing/0.12.1/opentracing.0.12.1.nupkg.sha512",
+    "/home/vitorafgomes/.nuget/packages/polly/7.1.0/polly.7.1.0.nupkg.sha512",
+    "/home/vitorafgomes/.nuget/packages/polly.contrib.waitandretry/1.1.1/polly.contrib.waitandretry.1.1.1.nupkg.sha512",
+    "/home/vitorafgomes/.nuget/packages/polly.extensions.http/3.0.0/polly.extensions.http.3.0.0.nupkg.sha512",
+    "/home/vitorafgomes/.nuget/packages/toolbox.framework.error/1.0.3/toolbox.framework.error.1.0.3.nupkg.sha512",
+    "/home/vitorafgomes/.nuget/packages/toolbox.framework.logging/1.0.4/toolbox.framework.logging.1.0.4.nupkg.sha512",
+    "/home/vitorafgomes/.nuget/packages/toolbox.framework.serializer/1.0.9/toolbox.framework.serializer.1.0.9.nupkg.sha512",
+    "/home/vitorafgomes/.nuget/packages/toolbox.framework.serializer.jsoncore/1.0.9/toolbox.framework.serializer.jsoncore.1.0.9.nupkg.sha512"
+  ],
+  "logs": []
+}

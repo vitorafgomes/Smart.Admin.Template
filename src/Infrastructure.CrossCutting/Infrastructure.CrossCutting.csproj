@@ -1,0 +1,20 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+        <RootNamespace>Smart.Admin.Template.RestApi.Infrastructure.CrossCutting</RootNamespace>
+        <AssemblyName>Smart.Admin.Template.RestApi.Infrastructure.CrossCutting</AssemblyName>
+    </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="FluentValidation" Version="11.9.0" />
+      <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.1" />
+      <PackageReference Include="Polly.Contrib.WaitAndRetry" Version="1.1.1" />
+      <PackageReference Include="Polly.Extensions.Http" Version="3.0.0" />
+      <PackageReference Include="toolbox.framework.error" Version="1.0.3" />
+      <PackageReference Include="toolbox.framework.logging" Version="1.0.4" />
+    </ItemGroup>
+
+</Project>
