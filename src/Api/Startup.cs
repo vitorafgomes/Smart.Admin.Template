@@ -1,6 +1,8 @@
 namespace Smart.Admin.Template.RestApi.Api;
 
+using System.Net;
 using Infrastructure.CrossCutting.Configuration;
+using Microsoft.AspNetCore.Server.Kestrel.Core;
 using Microsoft.Extensions.DependencyInjection.Extensions;
 using Modules;
 
@@ -16,9 +18,8 @@ public sealed class Startup(IConfiguration configuration, IWebHostEnvironment en
         service.Configure<ApplicationSettings>(this.Configuration);
         service.TryAddSingleton(applicationSettings);
         
-        
         service
-            .AddLogging(applicationSettings.Logging)
+            .AddLogging(env.EnvironmentName,applicationSettings.Logging)
             .AddPolly()
             .AddWebFramework()
             .AddVersioning()
@@ -29,15 +30,16 @@ public sealed class Startup(IConfiguration configuration, IWebHostEnvironment en
             .AddMongoDb(applicationSettings.Mongo)
             .AddGateways()
             .AddApplicationServices();
-
     }
 
     public void Configure(WebApplication app, IHostApplicationLifetime lifetime)
     {
         app
+            .UseHttpsRedirection()
+            .UseExceptionHandler(errorApp => { errorApp.LogUnhandledExceptions(); })
+            .ConfigureSwagger(app.DescribeApiVersions())
             .UseRouting()
-            .UseEndpoints(endpoints =>
-                endpoints.MapControllers());
+            .UseEndpoints(endpoints => endpoints.MapControllers());
     }
 }
 
@@ -48,7 +50,7 @@ public interface IStartup
     IWebHostEnvironment Env { get; }
 
     void ConfigureServices(IServiceCollection service);
-
+    
     void Configure(WebApplication app, IHostApplicationLifetime lifetime);
 }
 

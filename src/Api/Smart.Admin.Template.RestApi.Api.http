@@ -1,4 +1,4 @@
-@Smart.Admin.Template.RestApi.Api_HostAddress = http://localhost:5173
+@Smart.Admin.Template.RestApi.Api_HostAddress = http://localhost:5165
 
 GET {{Smart.Admin.Template.RestApi.Api_HostAddress}}/weatherforecast/
 Accept: application/json
